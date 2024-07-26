@@ -1,0 +1,224 @@
+import React from 'react';
+import '../../assets/css/Cards.css';
+import img2 from '../../assets/Images/react.png'
+import img1 from '../../assets/Images/data.png'
+import img3 from '../../assets/Images/jsframeworks.png'
+import img4 from '../../assets/Images/gatsby.png'
+import img5 from '../../assets/Images/mobile.png'
+import img6 from '../../assets/Images/htmlim.png'
+import img7 from '../../assets/Images/usability.png'
+import img8 from '../../assets/Images/flutter.png'
+import img9 from '../../assets/Images/interface.png'
+const Courses = () => {
+  return (
+    <div>
+        <h1>Courses</h1>
+<div className='card-wrap dark:text-black'>
+  <div class='card'>
+    <div class='set-image'>
+      <img src={img9} alt="no image"/>
+      </div>
+    {/* <div class='set-headline'></div> */}
+    <div className='set-text mt-3 justify-evenly items-center'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'>sedrftyguhjikjfdf</div>
+    <div class='set-text'>sqdwdfghjyk</div>
+    <div class='set-text'>wefrgthy</div>
+    <div class='set-text'>wefrgthy</div>
+    <div class='set-text'>qwefrgthy</div> */}
+    <div class='ribbon-wrapper-1'>
+      <div class='ribbon-1'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-blue-700 dark:text-white text-black'>
+              Enroll
+    </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+      <img src={img2} alt="no image"/>
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text' className='mt-3 justify-center align-items'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'>szdrftyguhi</div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-2'>
+      <div class='ribbon-2'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white '>
+              Enroll
+    </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+    <img src={img1}  alt="no image"/>
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text' className='mt-3 justify-center align-items'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-3'>
+      <div class='ribbon-3'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+              Enroll
+    </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+        <img src={img3}  alt="No image" />
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-4'>
+      <div class='ribbon-4'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg   mt-5 text-black border-none dark:bg-blue-700 dark:text-white'>
+              Enroll
+            </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+        <img src={img4} alt="No image"/>
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text'>
+    HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.
+    </div>
+    {/* <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-5'>
+      <div class='ribbon-5'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+              Enroll
+            </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+        <img src={img5} alt="No image"/>
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-6'>
+      <div class='ribbon-6'>Ribbon</div>
+    </div>
+        <div>
+        <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+                Enroll
+                </button>
+        </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+        <img src={img6} alt="No image"/>
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-7'>
+      <div class='ribbon-7'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+              Enroll
+            </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+        <img src={img7} alt="no image" />
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text'>HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+      It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.</div>
+    {/* <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div> */}
+    <div class='ribbon-wrapper-8'>
+      <div class='ribbon-8'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+              Enroll
+            </button>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='set-image'>
+        <img src={img8} alt="no image"/>
+    </div>
+    {/* <div class='set-headline'></div> */}
+    <div class='set-text'>
+        HTML, or HyperText Markup Language, is the standard language used to create and design web pages. 
+       It structures content on the web by using various tags and elements to describe headings, paragraphs, links,
+       images, and more. HTML forms the backbone of web content and is essential for web development.
+    </div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='set-text'></div>
+    <div class='ribbon-wrapper-9'>
+      <div class='ribbon-9'>Ribbon</div>
+    </div>
+    <div>
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+              Enroll
+            </button>
+    </div>
+  </div>
+</div>
+    </div>
+  )
+}
+
+export default Courses;
