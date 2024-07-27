@@ -83,11 +83,11 @@
 import React from 'react';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import { Avatar, Checkbox, FormControlLabel, TextField, Button,Link, Typography} from '@mui/material';
+import { Avatar, Checkbox, FormControlLabel, TextField, Button,Typography} from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-
+import {Link} from 'react-router-dom'
 function Login() {
-  const paperStyle = {
+    const paperStyle = {
     padding: 20,
     height: '70vh',
     width: 400,
@@ -95,12 +95,12 @@ function Login() {
   };
 
   const avatarStyle = {
-    backgroundColor: '#4FC3F7',
+    backgroundColor: '#93C5FD',
   };
 
   const buttonStyle = {
     marginTop: 20, // Adjusted to fit better spacing
-    backgroundColor: '#4FC3F7',
+    backgroundColor: '#93C5FD',
     color: '#fff',
     margin:'15px 0', // Ensure text color contrasts with background
   };
@@ -138,13 +138,15 @@ function Login() {
               style={{ marginBottom: 20 }} 
             />
               <FormControlLabel
-                control={<Checkbox color="secondary" />}
+                control={<Checkbox color="primary" />}
                 label="Remember me"
                 style={{marginBottom: 20,marginLeft:0}}
               />
-            <Button type="submit" fullWidth style={buttonStyle}>
-              SIGN IN
-            </Button>
+            <Link to="/courses">
+              <Button type="submit" fullWidth style={buttonStyle}>
+                SIGN IN
+              </Button>
+            </Link>
             <Typography>
               <Link href="#" style={{textDecoration:'none'}}>Forgot Password</Link>
             </Typography>

@@ -9,10 +9,11 @@ import img6 from '../../assets/Images/htmlim.png'
 import img7 from '../../assets/Images/usability.png'
 import img8 from '../../assets/Images/flutter.png'
 import img9 from '../../assets/Images/interface.png'
+import {Link} from 'react-router-dom'
 const Courses = () => {
   return (
     <div>
-        <h1>Courses</h1>
+        <h1 className='text-black dark:text-white'>Courses</h1>
 <div className='card-wrap dark:text-black'>
   <div class='card'>
     <div class='set-image'>
@@ -30,11 +31,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-1'>
       <div class='ribbon-1'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-blue-700 dark:text-white text-black'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
     </button>
-    </div>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -52,11 +53,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-2'>
       <div class='ribbon-2'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white '>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
     </button>
-    </div>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -74,11 +75,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-3'>
       <div class='ribbon-3'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
     </button>
-    </div>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -96,11 +97,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-4'>
       <div class='ribbon-4'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg   mt-5 text-black border-none dark:bg-blue-700 dark:text-white'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
-            </button>
-    </div>
+    </button>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -120,11 +121,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-5'>
       <div class='ribbon-5'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
-            </button>
-    </div>
+    </button>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -143,7 +144,7 @@ const Courses = () => {
       <div class='ribbon-6'>Ribbon</div>
     </div>
         <div>
-        <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+        <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-teal-800 dark:text-white'>
                 Enroll
                 </button>
         </div>
@@ -164,11 +165,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-7'>
       <div class='ribbon-7'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
-            </button>
-    </div>
+    </button>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -186,11 +187,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-8'>
       <div class='ribbon-8'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
-            </button>
-    </div>
+    </button>
+    </Link>
   </div>
   <div class='card'>
     <div class='set-image'>
@@ -210,11 +211,11 @@ const Courses = () => {
     <div class='ribbon-wrapper-9'>
       <div class='ribbon-9'>Ribbon</div>
     </div>
-    <div>
-    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-blue-700 dark:text-white'>
+    <Link to="/courses">
+    <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg  mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
               Enroll
-            </button>
-    </div>
+    </button>
+    </Link>
   </div>
 </div>
     </div>

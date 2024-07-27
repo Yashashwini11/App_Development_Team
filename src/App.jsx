@@ -10,6 +10,8 @@ import AdminLayout from './layout/AdminLayout'
 import AdminDashboard from './pages/Admin/AdminDashboard'
 // import NotFound from './pages/Shared/NotFound'
 import HomeLayout from './layout/HomeLayout'
+import CourseList from './CourseList'
+import CoursesDetails from './CoursesDetails'
 const App = () => {
     return (
         <>
@@ -19,7 +21,9 @@ const App = () => {
                         <Route path='/' element={<Home />} />
                         <Route path='/signup' element={<Register />} />
                         <Route path='/signin' element={<Login />} />
-                        <Route path='/courses' element={<courses/>}/>
+                        {/* <Route path='/courses' element={<courses/>}/> */}
+                        <Route path="/courses" element={<CourseList />} />
+                        <Route path="/course/:id" element={<CoursesDetails />} />
                     </Route> 
 
                     <Route element={<UserLayout />}>
