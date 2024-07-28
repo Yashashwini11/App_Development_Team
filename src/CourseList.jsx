@@ -386,7 +386,7 @@ const CourseList = () => {
     });
 
   return (
-    <div className="p-4 dark:text-white">
+    <div className="p-4 dark:text-white ml-20">
       {/* Centered Search Bar */}
       <div className="flex justify-center mb-4 mt-16"> {/* Adjust margin-top to account for navbar */}
         <TextField
@@ -461,19 +461,19 @@ const CourseList = () => {
               <Grid item xs={12} sm={6} md={4} lg={3} key={course.id}>
                 <Card sx={{ maxWidth: 300, height: '100%' }}>
                   <CardContent>
-                    <Typography variant="h6" component="div">
+                    <Typography variant="h5" component="div">
                       {course.title}
                     </Typography>
-                    <Typography color="textSecondary">
+                    <Typography color="black">
                       Instructor: {course.instructor}
                     </Typography>
-                    <Typography color="textSecondary">
+                    <Typography color="black">
                       Category: {course.category}
                     </Typography>
-                    <Typography color="textSecondary">
+                    <Typography color="black">
                       Difficulty: {course.difficulty}
                     </Typography>
-                    <Typography color="textSecondary">
+                    <Typography color="black">
                       Rating: {course.rating} / 5
                     </Typography>
                     <Typography variant="body2" component="p" gutterBottom>

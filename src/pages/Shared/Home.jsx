@@ -25,7 +25,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Courses from './Courses';
 import Page1 from './Page1';
 import '../../assets/css/Home.css';
-
+import About from './About';
+import Testimonials from './Testimonials';
+import Member from './Member'
+import Contactus from './Contactus';
 const Home = () => {
   return (
     <AnimatePresence>
@@ -53,7 +56,47 @@ const Home = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 4 }} // Duration for Courses
         >
+          <About />
+        </motion.div>
+
+        <motion.div
+          className='mt-10'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 6 }} 
+        >
           <Courses />
+        </motion.div>
+
+        <motion.div
+          className='mt-10'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 8 }} 
+        >
+          <Testimonials/>
+        </motion.div>
+
+        <motion.div
+          className='mt-10'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 10 }} 
+        >
+          <Member/>
+        </motion.div>
+
+        <motion.div
+          className='mt-10'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 12 }} 
+        >
+          <Contactus/>
         </motion.div>
       </motion.div>
     </AnimatePresence>

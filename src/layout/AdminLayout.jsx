@@ -30,6 +30,7 @@ import TestManagement from '../pages/Admin/TestManagement';
 import CloseIcon from '@mui/icons-material/Close';
 import AdminDashboard from '../pages/Admin/AdminDashboard';
 import { ModeToggle } from '@/components/mode-toggle';
+import {Link} from 'react-router-dom';
 const drawerWidth = 240;
 
 function AdminLayout() {
@@ -93,7 +94,7 @@ function AdminLayout() {
             onClose={handleMenuClose}
           >
             <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handleMenuClose}>Logout</MenuItem>
+            <Link to="/" ><MenuItem onClick={handleMenuClose}>Logout</MenuItem></Link>
           </Menu>
         </Toolbar>
         
@@ -110,7 +111,7 @@ function AdminLayout() {
           open
         >
           <div style={{ width: drawerWidth, padding: '16px', backgroundColor: 'white' }}>
-            <Typography variant="h6" style={{ color: 'black', marginBottom: '16px' }}>
+            <Typography variant="h6" style={{ color: 'black', marginBottom: '16px' ,marginLeft:'25px'}}>
               Admin Dashboard
             </Typography>
             <Divider style={{ marginBottom: '16px' }} />

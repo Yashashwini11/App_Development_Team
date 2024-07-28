@@ -194,7 +194,7 @@ function UserManagement() {
             // color="primary"
             startIcon={<AddIcon />}
             onClick={handleAddUser}
-            style={{ marginTop: '24px', marginBottom: '44px', backgroundColor: '#93c5fd' }}
+            style={{ marginTop: '24px', marginBottom: '44px', backgroundColor: '#93c5fd',color:'black', font:'bold' }}
           >
             {editingIndex !== null ? 'Update User' : 'Add User'}
           </Button>
