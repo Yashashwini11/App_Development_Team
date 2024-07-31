@@ -37,6 +37,10 @@ function Testimonials() {
                     <Typography variant="h6">{testimonial.name}</Typography>
                     <Typography variant="body1" paragraph>{testimonial.text}</Typography>
                     <Star color="primary" />
+                    <Star color="primary" />
+                    <Star color="primary" />
+                    <Star color="primary" />
+                    <Star color="primary" />
                   </Grid>
                 </Grid>
               </CardContent>

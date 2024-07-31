@@ -16,7 +16,7 @@ function BlogPosts() {
           {/* Basic Plan */}
           <div className="plan bg-light">
             <h2 className="plan__title">Basic Learner</h2>
-            <p className="plan__price">$9.99<span>/month</span></p>
+            <p className="plan__price">$0.00<span>/month</span></p>
             <p className="plan__description">
               Access to introductory courses and community support. Ideal for new learners looking to get started.
             </p>

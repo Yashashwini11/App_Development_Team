@@ -31,6 +31,7 @@ import Member from './Member'
 import Contactus from './Contactus';
 const Home = () => {
   return (
+    <>
     <AnimatePresence>
       <motion.div
         className='h-[84vh]'
@@ -100,6 +101,7 @@ const Home = () => {
         </motion.div>
       </motion.div>
     </AnimatePresence>
+    </>
   );
 };
 

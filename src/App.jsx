@@ -56,6 +56,8 @@ import AdminDashboard from './pages/Admin/AdminDashboard';
 import HomeLayout from './layout/HomeLayout';
 import CourseList from './CourseList';
 import CoursesDetails from './CoursesDetails';
+import TutorLayout from './layout/TutorLayout';
+import TutorDashboard from './pages/Tutor/TutorDashboard';
 // import NotFound from './pages/Shared/NotFound'; // Uncomment if you have a NotFound page
 
 const App = () => {
@@ -76,6 +78,9 @@ const App = () => {
 
                 <Route element={<AdminLayout />}>
                     <Route path='/admin/dashboard' element={<AdminDashboard />} />
+                </Route>
+                <Route element={<TutorLayout />}>
+                    <Route path='/tutor/dashboard' element={<TutorDashboard />} />
                 </Route>
 
                 {/* Uncomment if you have a NotFound page */}

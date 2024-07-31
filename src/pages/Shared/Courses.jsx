@@ -426,7 +426,7 @@ const Courses = () => {
           <div className='set-image'>
             <img src={img9} alt="No image" />
           </div>
-          <div className='set-text mt-3'>
+          <div className='set-text mt-6'>
             HTML, or HyperText Markup Language, is the standard language used to create and design web pages. It structures content on the web by using various tags and elements to describe headings, paragraphs, links, images, and more. HTML forms the backbone of web content and is essential for web development.
           </div>
           <div className='ribbon-wrapper-1'>
@@ -434,7 +434,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+              Go To Course
             </button>
           </Link>
         </div>
@@ -442,7 +442,7 @@ const Courses = () => {
           <div className='set-image'>
             <img src={img2} alt="No image" />
           </div>
-          <div className='set-text mt-3'>
+          <div className='set-text mt-6'>
             HTML, or HyperText Markup Language, is the standard language used to create and design web pages. It structures content on the web by using various tags and elements to describe headings, paragraphs, links, images, and more. HTML forms the backbone of web content and is essential for web development.
           </div>
           <div className='ribbon-wrapper-2'>
@@ -450,7 +450,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>
@@ -458,7 +458,7 @@ const Courses = () => {
           <div className='set-image'>
             <img src={img1} alt="No image" />
           </div>
-          <div className='set-text mt-3'>
+          <div className='set-text mt-6'>
             HTML, or HyperText Markup Language, is the standard language used to create and design web pages. It structures content on the web by using various tags and elements to describe headings, paragraphs, links, images, and more. HTML forms the backbone of web content and is essential for web development.
           </div>
           <div className='ribbon-wrapper-3'>
@@ -466,7 +466,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>
@@ -482,7 +482,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>
@@ -498,7 +498,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>
@@ -514,7 +514,7 @@ const Courses = () => {
           </div>
           <div>
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg text-black mt-5 border-none dark:bg-teal-800 dark:text-white'>
-              Enroll
+            Go To Course
             </button>
           </div>
         </div>
@@ -530,7 +530,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>
@@ -546,7 +546,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>
@@ -562,7 +562,7 @@ const Courses = () => {
           </div>
           <Link to="/courses">
             <button type="submit" className='bg-blue-300 h-[5vh] w-[7vw] border-r-2 rounded-lg mt-5 border-none dark:bg-teal-800 dark:text-white text-black'>
-              Enroll
+            Go To Course
             </button>
           </Link>
         </div>

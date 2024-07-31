@@ -5,7 +5,7 @@ import undraw from '../../assets/Images/undraw.png'
 function App() {
   return (
     <div style={{ padding: '4rem' }}>
-      <Typography variant="h4" gutterBottom align='center'>About Us</Typography>
+      <Typography variant="h4" gutterBottom align='center' className='font-bold'>About Us</Typography>
       <Grid container spacing={8} alignItems="center">
         <Grid item xs={12} md={6}>
           <Card>
